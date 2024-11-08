@@ -6,7 +6,7 @@ const swaggerJsDoc = require('swagger-jsdoc');
 const userRoutes = require('./routes/userRoutes');
 const postRoutes = require('./routes/postRoutes');
 const app = express();
-
+ 
 // Middleware
 app.use(express.json());
 
